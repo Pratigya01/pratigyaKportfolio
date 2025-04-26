@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pratigya Koirala Portfolio</title>
+  <style>
+    body {
+      font-family: "Calibri", sans-serif;
+      background: linear-gradient(135deg, #fdf6f0 60%, #f7ebe8);
+      color: #333;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-image: url('https://www.transparenttextures.com/patterns/cream-dust.png');
+      position: relative;
+    }
+    header, section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    header {
+      background-color: #f3e8dc;
+      text-align: center;
+      border-bottom: 2px solid #d4c4b4;
+      box-shadow: 0 4px 6px rgba(90, 62, 43, 0.1);
+      position: relative;
+    }
+    h1 {
+      font-family: "Book Antiqua", serif;
+      font-weight: bold;
+      font-size: 2.5rem;
+      color: #5a3e2b;
+      margin-bottom: 0.5rem;
+      text-decoration: underline;
+    }
+    .profile-photo {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #5a3e2b;
+      margin-top: 1rem;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    }
+    .contact a {
+      color: #a0522d;
+      text-decoration: underline;
+    }
+    .section-title {
+      font-family: "Book Antiqua", serif;
+      font-weight: bold;
+      font-size: 1.6rem;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      color: #5a3e2b;
+      border-bottom: 2px dashed #d4c4b4;
+      padding-bottom: 0.3rem;
+    }
+    .projects-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+    .project-card {
+      padding: 1rem;
+      border: 1px solid #e0d4c0;
+      border-radius: 8px;
+      background: #fff9f3;
+      box-shadow: 0 2px 4px rgba(90, 62, 43, 0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #8b7765;
+    }
+    .cv-link {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      background-color: #a0522d;
+      color: white;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+    }
+    .decorative-elements {
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      pointer-events: none;
+    }
+    .decorative-elements img {
+      width: 80px;
+      opacity: 0.6;
+      animation: float 4s ease-in-out infinite;
+    }
+    @keyframes float {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Pratigya Koirala</h1>
+    <img src="pratigya.png" alt="Pratigya Koirala" class="profile-photo" />
+    <p>4th Year Geomatics Engineering Undergraduate, Kathmandu University</p>
+    <p class="contact">
+      Email: <a href="koiralapratigya62@gmail.com">koiralapratigya62@gmail.com</a> |
+      LinkedIn: <a href="https://www.linkedin.com/in/pratigya-koirala-5baa5b35a" target="_blank">linkedin.com/in/pratigya-koirala-5baa5b35a</a>
+    </p>
+    <a class="cv-link" href="https://github.com/Pratigya01/Pratigyakoirala-portfolio/raw/main/cv.pk.pdf" download>Download My CV (PDF)</a>
+    <div class="decorative-elements">
+      <img src="https://cdn-icons-png.flaticon.com/512/616/616408.png" alt="sparkle" />
+    </div>
+  </header>
+
+  <section>
+    <div class="section-title">About Me</div>
+    <p>I'm a fun-loving, energetic 21-year-old Geomatics Engineering student at Kathmandu University. I completed my schooling at Pragati Prabhat Academy and high school at Kathmandu University High School. I enjoy cooking, reading manga, watching series, and eating yummy food. I'm currently exploring programming with C, C++, Java, and learning Python. I also have GIS and PostgreSQL skills.</p>
+  </section>
+
+  <section>
+    <div class="section-title">Projects</div>
+    <div class="projects-grid">
+      <div class="project-card">
+        <strong>3D Modeling of KU Cafe & Amphitheatre</strong> (1st Year, 2nd Sem): A team project to model KU’s cafeteria and amphitheatre in 3D.
+      </div>
+      <div class="project-card">
+        <strong>Levelling & Traverse Survey</strong> (2nd Year, 1st Sem): Covered levelling,cross-sectional levelling and traverse surveying basics.
+      </div>
+      <div class="project-card">
+        <strong>Bajrabarahi Field Project</strong> (2nd Year, 2nd Sem): 28-day camp with hands-on work in traverse, levelling, triangulation, intersection, and resection.
+      </div>
+      <div class="project-card">
+        <strong>Speed Camera Placement Study</strong> (3rd Year, 1st Sem): A project addressing speed control by analyzing road routes and determining camera placement locations.
+      </div>
+      <div class="project-card">
+        <strong>Jiri Field Camp</strong> (3rd Year, 2nd Sem): 28-day fieldwork involving traverse, hydrographic survey, route survey, curve setting, and plane table survey using various techniques.
+      </div>
+      <div class="project-card">
+        <strong>Ongoing Final Year Project</strong> (4th Year): Currently in discussion and planning stage.
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-title">Achievements</div>
+    <p>I was part of the best field team during our field projects. I've also developed strong teamwork and problem-solving skills while learning GIS and PostgreSQL along with some basic knowledge on programming languages like C, C++, Java, and Python.</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Pratigya Koirala
+  </footer>
+</body>
+</html>
+
